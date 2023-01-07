@@ -1,0 +1,19 @@
+{
+  "name": "03-bases-node",
+  "version": "0.1.0",
+  "description": "Programa para armar archivos con las tablas de multiplicacion.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "keywords": [
+    "multiplicacion"
+  ],
+  "author": "Luciano Pereyra",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.6.2"
+  }
+}
